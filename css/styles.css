@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+ .link:hover, 
+ .link:focus {
+    color: #2196F3;
+ }
+
+ .link {
+    text-decoration: none;
+    color:#757575;
+ }
+
+ .list {
+    list-style-type:none ;
+ }
+
+ .filter-button {
+    width: 120px;
+    height: 38px;
+    background-color:#F5F4FA ;
+    border-radius: 4px;
+ }
+
