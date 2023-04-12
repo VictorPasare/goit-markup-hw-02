@@ -1,16 +1,17 @@
 body {
     background-color: #ffffff;
-    font-family: 'Roboto','Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
  .link:hover, 
- .link:focus {
+ .link:focus
+ .link:active {
     color: #2196F3;
  }
 
@@ -24,8 +25,6 @@ body {
  }
 
  .filter-button {
-    width: 120px;
-    height: 38px;
     background-color:#F5F4FA ;
     border-radius: 4px;
     cursor:pointer;
@@ -34,7 +33,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -55,7 +54,6 @@ body {
 
 .logo-link {
    font-family: 'Raleway';
-   font-style: normal;
    font-weight: 700;
    font-size: 26px;
    line-height:1.36;
@@ -66,8 +64,6 @@ body {
 }
 
 .description-list-title{
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
@@ -77,9 +73,6 @@ body {
 }
 
 .description-list-par {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.71;
    letter-spacing: 0.03em;
@@ -87,8 +80,6 @@ body {
 }
 
 .description-we-do {
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -97,8 +88,6 @@ body {
 }
 
 .our-team-title {
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -107,7 +96,6 @@ body {
 }
 
 .team-name {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
@@ -116,9 +104,6 @@ body {
 }
 
 .team-role {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.18;
    letter-spacing: 0.03em;
@@ -126,8 +111,6 @@ body {
 }
 
 .project-name {
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 700;
    font-size: 18px;
    line-height: 2;
@@ -136,9 +119,6 @@ body {
 }
 
 .project-type {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
    font-size: 16px;
    line-height: 1.875;
    letter-spacing: 0.03em;
@@ -146,7 +126,6 @@ body {
 }
 
 .nav-link, .header-email-link, .header-phone-link {
-   font-family: 'Roboto';
    font-style: normal;
    font-weight: 500;
    font-size: 14px;
@@ -156,9 +135,6 @@ body {
 }
 
 .adress-location {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
    font-size: 14px;
    line-height: 1.14;
    letter-spacing: 0.03em;
@@ -170,18 +146,13 @@ body {
 }
 
 .footer-email-link , .footer-phone-link {
-   font-family: 'Roboto';
-   font-style: normal;
-   font-weight: 400;
    font-size: 14px;
-   line-height: 16px;
+   line-height: 1.14;
    letter-spacing: 0.03em;
 }
 
 
 .request-section-intro {
-   font-family: 'Roboto';
-   font-style: normal;
    font-weight: 900;
    font-size: 44px;
    line-height: 60px;
