@@ -8,16 +8,25 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+:root {
+   --button-link-action: #2196f3;
+   --small-title:#212121;
+   --description-text:#757575;
+   --imp-text:#ffffff;
+   --button-background:#f5f4fa;
+   --section-color:#2f303a;
+}
 
+/* Clasa parinte pentru link-uri (header/footer/nav) */
  .link:hover, 
  .link:focus
  .link:active {
-    color: #2196F3;
+    color: var(--button-link-action);
  }
 
  .link {
     text-decoration: none;
-    color:#757575;
+    color:var(--description-text);
  }
 
  .list {
@@ -25,7 +34,7 @@ body {
  }
 
  .filter-button {
-    background-color:#F5F4FA ;
+    background-color:var(--button-background) ;
     border-radius: 4px;
     cursor:pointer;
     border:4px;
@@ -33,19 +42,19 @@ body {
     font-size: 16px;
     line-height: 1.625;
     text-align: center;
-    color: #212121;
+    color: var(--small-title);
  }
 
 .filter-button:hover,
 .filter-button:focus,
 .filter-button:active {
-   background-color: #2196F3;
-   color:#ffffff; 
+   background-color: var(--button-link-action);
+   color:var(--imp-text); 
 }
 
 .request-button {
-   background-color:#2196F3;
-   color:#ffffff;
+   background-color:var(--button-link-action);
+   color:var(--imp-text);
    cursor:pointer;
 }
 
@@ -57,7 +66,7 @@ body {
 }
 
 .logo-link span {
-   color:#2196F3;
+   color:var(--button-link-action);
 }
 
 .nav-list li {
@@ -67,12 +76,12 @@ body {
 .description-list-title{
    font-weight: 700;
    text-transform: uppercase;
-   color: #212121;
+   color: var(--small-title);
 }
 
 .description-list-par {
    line-height: 1.71;
-   color: #757575;
+   color: var(--description-text);
 }
 
 .description-we-do {
@@ -98,7 +107,7 @@ body {
 .team-role {
    font-size: 16px;
    line-height: 1.18;
-   color: #757575;
+   color: var(--description-text);
 }
 
 .project-name {
@@ -106,41 +115,41 @@ body {
    font-size: 18px;
    line-height: 2;
    letter-spacing: 0.06em;
-   color: #212121;
+   color: var(--small-title);
 }
 
 .project-type {
    font-size: 16px;
    line-height: 1.875;
-   color: #757575;
+   color: var(--description-text);
 }
 
 .nav-link, .header-email-link, .header-phone-link {
    font-weight: 500;
    letter-spacing: 0.02em;
-   color: #212121;
+   color: var(--small-title);
 }
 
 .adress-location {
-   color: #FFFFFF;
+   color: var(--imp-text);
 }
 
 .main-footer {
-   background-color: #2F303A;
+   background-color: var(--section-color);
 }
 
 .request-section-intro {
    font-weight: 900;
    font-size: 44px;
-   line-height: 60px;
+   line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;
-   color: #FFFFFF;
+   color: var(--imp-text);
 }
 
 .request-section {
-   background-color: #2F303A;
+   background-color: var(--section-color);
 }
 
 .filter-list li {
